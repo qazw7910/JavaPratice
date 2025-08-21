@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 
     @Autowired
-    @Qualifier("cannonPrinter") // Change this to "hpPrinter" to use the HP printer)
+    @Qualifier("yourPrinter") // Use "myPrinter" to use the HP printer)
     private Printer printer;
 
     @RequestMapping("/test")
